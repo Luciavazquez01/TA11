@@ -1,0 +1,25 @@
+/* Estilos para todos los elementos impares */
+p:nth-of-type(odd) {
+    background-color: lightpink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+  }
+  
+  /* Estilos para el segundo elemento */
+  div:nth-of-type(1) {
+    color: blue;
+    font-size: 36px;
+  }
+  
+  /* Estilos adicionales para el tercer elemento */
+  p:nth-of-type(3) {
+    background-color: lightpink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    font-size: 24px;
+  }
+  
+  /* Estilos para el cuarto elemento */
+  div:nth-of-type(2) {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+  }
